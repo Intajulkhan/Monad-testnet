@@ -1,0 +1,11 @@
+echo 'from web3 import Web3
+
+MONAD_RPC_URL = "https://rpc.testnet.monad.io"
+
+web3 = Web3(Web3.HTTPProvider(MONAD_RPC_URL))
+
+if web3.is_connected():
+    print("✅ Successfully connected to Monad Testnet!")
+    print("Current Block Number:", web3.eth.block_number)
+else:
+   monad testnet 
